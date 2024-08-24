@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: aqua;
+    position: relative;
+}
+
+.nav-con {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and menu */
+}
+
+.logo-img img {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0; /* ลบ margin เพื่อให้ชิดกับรูปภาพ */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto; /* Pushes menu to the right */
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem; /* Add some padding for better click area */
+}
+
+.menu li a:hover {
+    text-decoration: underline; /* Underline on hover for better interaction */
+}
+
+/* ตั้งค่าเริ่มต้นสำหรับทุกองค์ประกอบ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* จัดกลางเนื้อหา */
+.center {
+    text-align: center;
+}
+
+/* ปุ่ม */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* คอนเทนเนอร์หลัก */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* การจัดรูปแบบการ์ดโปรไฟล์ */
+.profile-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h2 {
+    margin-bottom: 10px;
+}
+
+.profile-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333%;
+    font-weight: bold;
+}
+
+.col-md-8 {
+    flex: 0 0 66.666%;
+}
+
+/* ระยะห่างบนของปุ่ม */
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.footer {
+    background-color: #333; /* สีพื้นหลังของ footer */
+    padding: 20px 0; /* ระยะห่างด้านบนและล่าง */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    border-top: 1px solid #dee2e6; /* เส้นขอบด้านบน */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+
+.footer .container {
+    max-width: 1200px; /* ความกว้างสูงสุดของคอนเทนเนอร์ */
+}
+
+.footer-info {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: aqua;
+    position: relative;
+}
+
+.nav-con {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between logo and menu */
+}
+
+.logo-img img {
+    width: 80px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0; /* ลบ margin เพื่อให้ชิดกับรูปภาพ */
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto; /* Pushes menu to the right */
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem; /* Add some padding for better click area */
+}
+
+.menu li a:hover {
+    text-decoration: underline; /* Underline on hover for better interaction */
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.blog-title {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.blog-title h4 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    color: #666;
+}
+
+.blog-con {
+    margin-top: 2rem;
+}
+
+.batch-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* สร้าง 3 คอลัมน์ */
+    gap: 20px; /* ระยะห่างระหว่างการ์ด */
+}
+
+.batch-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.batch-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0; /* ทำให้ขอบบนของรูปภาพกลมเหมือนการ์ด */
+    margin-bottom: 1rem;
+}
+
+.batch-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.batch-card .btn {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.batch-card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* ฟุตเตอร์ */
+.footer {
+    background-color: #333; /* สีพื้นหลังของ footer */
+    padding: 20px 0; /* ระยะห่างด้านบนและล่าง */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    border-top: 1px solid #dee2e6; /* เส้นขอบด้านบน */
+    position: relative;
+    width: 100%;
+    color: white;
+}
+
+.footer .container {
+    max-width: 1200px; /* ความกว้างสูงสุดของคอนเทนเนอร์ */
+    margin: 0 auto; /* จัดกลางคอนเทนเนอร์ */
+    padding: 0 15px; /* เพิ่ม padding ด้านข้าง */
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* จัดกลางคอลัมน์ในแถว */
+    flex-wrap: wrap; /* ทำให้คอลัมน์จัดกลางได้แม้หน้าจอเล็ก */
+}
+
+.col-md-4 {
+    flex: 0 0 33.333%; /* ความกว้างของคอลัมน์ */
+    padding: 0 15px; /* ระยะห่างด้านข้างของคอลัมน์ */
+    margin-bottom: 20px; /* ระยะห่างด้านล่างของคอลัมน์ */
+    box-sizing: border-box; /* รวม padding และ border ในขนาดความกว้าง */
+}
+
+.footer-info h5 {
+    margin-bottom: 10px;
+    font-size: 1.25rem; /* ขนาดฟอนต์สำหรับหัวข้อ */
+    font-weight: bold; /* ทำให้หัวข้อโดดเด่น */
+}
+
+.footer-info p {
+    margin-bottom: 5px;
+    font-size: 0.875rem; /* ขนาดฟอนต์สำหรับข้อความ */
+}
+
+.mt-3 {
+    margin-top: 1rem; /* ระยะห่างด้านบน */
+}
