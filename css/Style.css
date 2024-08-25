@@ -17,8 +17,8 @@ nav {
 
 .nav-con {
     display: flex;
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between logo and menu */
+    align-items: center; 
+    justify-content: space-between; 
 }
 
 .logo-img img {
@@ -28,13 +28,13 @@ nav {
 
 h1 {
     font-size: 24px;
-    margin: 0; /* ลบ margin เพื่อให้ชิดกับรูปภาพ */
+    margin: 0; 
 }
 
 .menu {
     display: flex;
     list-style: none;
-    margin-left: auto; /* Pushes menu to the right */
+    margin-left: auto; 
 }
 
 .menu li {
@@ -44,11 +44,11 @@ h1 {
 .menu li a {
     color: #fff;
     text-decoration: none;
-    padding: 0.5rem; /* Add some padding for better click area */
+    padding: 0.5rem; 
 }
 
 .menu li a:hover {
-    text-decoration: underline; /* Underline on hover for better interaction */
+    text-decoration: underline; 
 }
 
 .blog {
@@ -82,8 +82,8 @@ h1 {
 
 .batch-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* สร้าง 3 คอลัมน์ */
-    gap: 20px; /* ระยะห่างระหว่างการ์ด */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
 }
 
 .batch-card {
@@ -98,7 +98,7 @@ h1 {
 .batch-card img {
     width: 100%;
     height: auto;
-    border-radius: 8px 8px 0 0; /* ทำให้ขอบบนของรูปภาพกลมเหมือนการ์ด */
+    border-radius: 8px 8px 0 0; 
     margin-bottom: 1rem;
 }
 
@@ -122,45 +122,45 @@ h1 {
 
 /* ฟุตเตอร์ */
 .footer {
-    background-color: #333; /* สีพื้นหลังของ footer */
-    padding: 20px 0; /* ระยะห่างด้านบนและล่าง */
-    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
-    border-top: 1px solid #dee2e6; /* เส้นขอบด้านบน */
+    background-color: #333; 
+    padding: 20px 0; 
+    text-align: center; 
+    border-top: 1px solid #dee2e6; 
     position: relative;
     width: 100%;
     color: white;
 }
 
 .footer .container {
-    max-width: 1200px; /* ความกว้างสูงสุดของคอนเทนเนอร์ */
-    margin: 0 auto; /* จัดกลางคอนเทนเนอร์ */
-    padding: 0 15px; /* เพิ่ม padding ด้านข้าง */
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
 }
 
 .row {
     display: flex;
-    justify-content: center; /* จัดกลางคอลัมน์ในแถว */
-    flex-wrap: wrap; /* ทำให้คอลัมน์จัดกลางได้แม้หน้าจอเล็ก */
+    justify-content: center; 
+    flex-wrap: wrap; 
 }
 
 .col-md-4 {
-    flex: 0 0 33.333%; /* ความกว้างของคอลัมน์ */
-    padding: 0 15px; /* ระยะห่างด้านข้างของคอลัมน์ */
-    margin-bottom: 20px; /* ระยะห่างด้านล่างของคอลัมน์ */
-    box-sizing: border-box; /* รวม padding และ border ในขนาดความกว้าง */
+    flex: 0 0 33.333%; 
+    padding: 0 15px; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
 }
 
 .footer-info h5 {
     margin-bottom: 10px;
-    font-size: 1.25rem; /* ขนาดฟอนต์สำหรับหัวข้อ */
-    font-weight: bold; /* ทำให้หัวข้อโดดเด่น */
+    font-size: 1.25rem; 
+    font-weight: bold; 
 }
 
 .footer-info p {
     margin-bottom: 5px;
-    font-size: 0.875rem; /* ขนาดฟอนต์สำหรับข้อความ */
+    font-size: 0.875rem; 
 }
 
 .mt-3 {
-    margin-top: 1rem; /* ระยะห่างด้านบน */
+    margin-top: 1rem; 
 }
